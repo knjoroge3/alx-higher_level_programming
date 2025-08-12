@@ -1,0 +1,30 @@
+I ran the belwo command with the following
+
+python3 -m doctest -v doctest1.py
+
+-m  is the flag to call for the doctest and -v is for printing in verbose
+
+
+The results of the multiplication is 40
+The results of the addition is 150
+Trying:
+    Math(2, 3).Add()
+Expecting:
+    5
+ok
+Trying:
+    Math(2, 3).Mult()
+Expecting:
+    6
+ok
+4 items had no tests:
+    doctest1
+    doctest1.Math
+    doctest1.Math.__init__
+    doctest1.Math.__str__
+2 items passed all tests:
+   1 tests in doctest1.Math.Add
+   1 tests in doctest1.Math.Mult
+2 tests in 6 items.
+2 passed and 0 failed.
+Test passed.
