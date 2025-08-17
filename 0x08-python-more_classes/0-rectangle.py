@@ -7,6 +7,9 @@ You are not allowed to import any module
 
 
 class Rectangle:
+    """
+    an instane of the Rectangle Class
+    """
     pass
 
 
