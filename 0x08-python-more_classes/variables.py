@@ -26,7 +26,7 @@ class Robot:
     def rise(self):
         if Robot.population > 0:
             print("My name is {} and my kind are {}\
-                    in this planet".format(self.name, Robot.population))
+ in this planet".format(self.name, Robot.population))
         else:
             print("Robots have retired to their galaxy")
 
