@@ -14,7 +14,7 @@ class Myclass:
     """
     Myclass is the name of the class
     """
-   pass
+    pass
 """
 where this pass is this is where we find the body of the class
 """
