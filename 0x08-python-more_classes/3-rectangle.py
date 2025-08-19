@@ -77,10 +77,10 @@ class Rectangle:
             return (summation * 2)
 
     def __str__(self):
-        if self.__width or self.__height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ("")
         else:
-            print("#, end=""")
+            return("#")
 
 
 rectangle = Rectangle()  # instantiating the object
