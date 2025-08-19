@@ -21,3 +21,5 @@ y.build_year = "2024"
 
 print("{} and was built on {}".format(x.name, x.build_year))
 print("{} and was built on {}".format(y.name, y.build_year))
+print(x.__dict__)
+print(y.__dict__)
