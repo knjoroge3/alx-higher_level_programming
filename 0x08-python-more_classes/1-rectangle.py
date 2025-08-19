@@ -14,11 +14,11 @@ class Rectangle:
         """
         the initialization step
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     @property
-    def width(self, value):
+    def width(self):
         """
         gettin width so that I can  proceed to set it
         """
@@ -30,15 +30,15 @@ class Rectangle:
         Setting width and checking is it is an int or great than 0
         """
 
-        if not isinstance(width, int):
+        if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        elif width < 0:
+        elif value < 0:
             raise ValueError("width must be >= 0")
         else:
-            return self.__width
+            self.__width = value
 
     @property
-    def height(self, value):
+    def height(self):
         """
         Getting height so that I can proceed to set it
         """
@@ -51,12 +51,12 @@ class Rectangle:
         setting height and checking if it is an int and greater than 0
         """
 
-        if not isinstance(height, int):
+        if not isinstance(value, int):
             raise TypeError("height must be an integer")
-        elif height < 0:
+        elif value < 0:
             raise ValueError("height must be >= 0")
         else:
-            return self.__height
+            self.__height = value
 
 
 rectangle = Rectangle()  # instantiating the object
