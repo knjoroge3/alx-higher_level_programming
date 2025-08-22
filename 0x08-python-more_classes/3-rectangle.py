@@ -79,12 +79,15 @@ class Rectangle:
     def __str__(self):
         result = ''
         a = ''
-        for i in range(self.__height):
-            for item in range(self.__width):
-                a = '#'
-                result += a
-            if i != self.__height - 1:
-                result += '\n'
+        if (self.__width == 0) or (self.__height == 0):
+            return ('')
+        else:
+            for i in range(self.__height):
+                for item in range(self.__width):
+                    a = '#'
+                    result += a
+                if i != self.__height - 1:
+                    result += '\n'
         return (result)
 
 
