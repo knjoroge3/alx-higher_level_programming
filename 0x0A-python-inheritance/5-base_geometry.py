@@ -4,6 +4,7 @@
 An Empty class base
 """
 
+
 class BaseGeometry:
     """
     An empty class defination
