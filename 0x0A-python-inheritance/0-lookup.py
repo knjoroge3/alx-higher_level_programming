@@ -7,4 +7,9 @@ available attributes
 
 
 def lookup(obj):
+    """
+    the above is the function
+    prototype for returning the
+    attributes
+    """
     return dir(obj)
