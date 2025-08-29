@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 
 """
 Write a function that returns the JSON representation of an object (string):
