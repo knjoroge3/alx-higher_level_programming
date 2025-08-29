@@ -22,7 +22,7 @@ filename = "add_item.json"
 
 try:
     items_list = load_from_json_file(filename)
-except:
+except FileNotFoundError:
     items_list = []
 
 items_list = items_list + sys.argv[1:]
