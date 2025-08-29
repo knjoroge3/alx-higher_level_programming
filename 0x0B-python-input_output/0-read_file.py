@@ -11,5 +11,8 @@ You are not allowed to import any module
 
 
 def read_file(filename=""):
+    """
+    module reads a file input from the above function
+    """
     with open(filename, encoding='utf-8') as f:
         f.read()
