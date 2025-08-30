@@ -4,5 +4,6 @@
 -- the current database in your MySQL server
 
 CREATE TABLE IF NOT EXISTS first_table(
-	VALUE (id INT, name VARCHAR(256))
+	id INT,
+	name VARCHAR(256)
 );
